@@ -13,15 +13,15 @@ public class TestExecutionTrackerLogin {
 		this.driver = driver;
 	}
 	public void enterUsername(String uname) throws IOException {
-		driver.findElement(By.name("userName")).clear();
-		driver.findElement(By.name("userName")).sendKeys("SHEEL");
+		driver.findElement(By.name("uname")).clear();
+		driver.findElement(By.name("uname")).sendKeys("test");
 					
 	}
 	
 	public void enterPassword(String pass) throws IOException {
 		
-		driver.findElement(By.name("password")).clear();
-		driver.findElement(By.name("password")).sendKeys("AAA");
+		driver.findElement(By.name("pass")).clear();
+		driver.findElement(By.name("pass")).sendKeys("test");
 		
 	}
 	

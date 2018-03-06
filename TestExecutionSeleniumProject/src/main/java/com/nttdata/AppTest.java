@@ -20,9 +20,9 @@ public class AppTest {
 	  firefoxProfile.setPreference("xpinstall.signatures.required", false);
 	  driver = new FirefoxDriver(firefoxProfile);*/
 	  TestExecutionTrackerLogin tracker= new TestExecutionTrackerLogin(driver);
-	  driver.get("http://localhost:8085/TransportCompany-0.0.1-SNAPSHOT/");
-	  tracker.enterUsername("SHEEL");
-	  tracker.enterPassword("AAA");
+	  driver.get("http://localhost:8085/TransportCompany/");
+	  tracker.enterUsername("test");
+	  tracker.enterPassword("test");
 	  /*tracker.clickSubmitButton();*/
 
   }
